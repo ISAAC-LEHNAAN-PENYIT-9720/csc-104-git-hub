@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paps Store</title>
+    <link rel="stylesheet" href="css/materialize.css">
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav class="grey lighten-1 z-depth-0 ">
+            <div class="container">
+                <a href="index.html" class="brand-logo left"><img src="img/logo.jpg" alt="" width="50vw"></a>
+                <ul class="right ">
+                    <li><a href="index.html" class="black-text">Home</a></li>
+                    <li><a href="index.html" class="black-text">About us</a></li>
+                    <li><a href="index.html" class="black-text">Contact us </a></li>
+                    <li><a href="index.html" class="black-text">Cart </a></li>
+                    <li><a href="#pod" class="black-text">Products</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="slider">
+        <ul class="slides">
+            <li><img src="img/cap.jpg" alt=""></li>
+            <li><img src="img/hoddie.jpg" alt=""></li>
+            <li><img src="img/shirts.jpg" alt=""></li>
+            
+            
+        </ul>
+    </div>
+
+
+    <div class="body container">
+        <h1 class="center" id="pod">Products</h1>
+        <div class="row">
+            <div class="">
+                <!-- hoddie -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/hoddie.jpg" alt="" class="materialboxed">
+                    </div>
+                    <div class="card-content">
+                        <h2 class="center">Hoodie</h2>
+                        
+                    </div>
+
+                    <div class="card-action">
+                        <a href="hood.html" class="grey-text text-darken-4">More info...</a>
+                    </div>
+
+        </div>
+        <!-- cap -->
+        <div class="card">
+            <div class="card-image">
+                <img src="img/cap.jpg" alt="" class="materialboxed">
+            </div>
+            <div class="card-content">
+                <h2 class="center">Cap</h2>
+                
+            </div>
+
+            <div class="card-action">
+                <a href="caps.htm" class="grey-text text-darken-4">More info...</a>
+            </div>
+
+</div>
+<!-- shirt -->
+<div class="card">
+    <div class="card-image">
+        <img src="img/shirts.jpg" alt="" class="materialboxed">
+    </div>
+    <div class="card-content">
+        <h2 class="center">Shirt</h2>
+        
+    </div>
+
+    <div class="card-action">
+        <a href="shirt.htm" class="grey-text text-darken-4">More info...</a>
+    </div>
+
+</div>
+    </div>
+    
+    <script src="js/jQuery.js"></script>
+    <script src="js/materialize.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').slider();
+            $('.materialboxed').materialbox();
+        });
+    </script>
+</body>
+</html>
